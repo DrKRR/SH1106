@@ -15,7 +15,7 @@ Dimension: 0.66", 0.91", 0.96", 1.3", 1.54" etc.; Pixel density: 128X32, 128X64 
 OLED modules support SPI or I2C Protocol. Certain modules support both protocols with a little modification of components at its backplane. One important point to note is that they use different drivers to work with. Popular drives used in 0.96" and 1.3" OLED modules are SSD1306 and SH1106, respectively. <br/> Here, I am going to explain the application of 0.96", 128X64 module in IoT (SSD1306 Driver, I2C Protocol) and the 1.3", 128X64 module working in SPI and I2C Protocols (SH1106 Driver). Hardware and software details are given. 
 
 #### Application of 0.96" OLED(128X64) to display Temperature, Pressure and Altitude:
-Following are the figures of front and rear views 0.96"OLED with 4-Pin I2C with SSD1306 Driver. 
+Following are the figures of front and rear views of 0.96"OLED with 4-Pin I2C with SSD1306 Driver. 
 <br/>
 <p align = "center"><img src="https://github.com/DrKRR/SH1106/blob/main/0.96-inch-oled-display-module-4-pin-800x800-1.jpg" width = "350" height = "150"></p>
 As shown in the above figure, the I2C address can be chosen either 0x78 or 0x7A by connecting the 4k7 resistor appropriately. The selected address is used in the program to display the information on the OLED. 
