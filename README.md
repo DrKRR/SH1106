@@ -16,7 +16,8 @@ OLED modules support SPI or I2C Protocol. Certain modules support both protocols
 
 #### Application of 0.96" OLED(128X64) to display Temperature, Pressure and Altitude:
 Following are the figures of front and rear views 0.96"OLED with 4-Pin I2C with SSD1306 Driver. 
-
+<br/>
+<p align = "center"><img src="https://github.com/DrKRR/SH1106/blob/main/0.96-inch-oled-display-module-4-pin-800x800-1.jpg" width = "350" height = "150"></p>
 
 
 
