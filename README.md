@@ -22,9 +22,9 @@ As shown in the above figure, the I2C address can be chosen either 0x78 or 0x7A 
 BMP280 is a temperature and barometric pressure sensor from Bosch Sensortech. It differs from BME280 that the later measures not only temperature and pressure but also humidity. Salient features of these sensors are: High accuracy, low energy consumption, very small in size and low-cost. Further, Adafruit library is readily available for interfacing. It supports I2C protocol for interfacing. The following figure shows the tiny BMP280 board:
 
 <br/>
-<p align = "center"><img src="https://github.com/DrKRR/SH1106/blob/main/BMP280-Barometric-Pressure-and-Altitude-Sensor-I2CSPI-Module-4.jpg" width = "100" height = "100"></p>
+<p align = "left"><img src="https://github.com/DrKRR/SH1106/blob/main/BMP280-Barometric-Pressure-and-Altitude-Sensor-I2CSPI-Module-4.jpg" width = "100" height = "100"></p>
 
-
+<p align = "center"><img src="https://github.com/DrKRR/SH1106/blob/main/BMP.jpg" width = "100" height = "100"></p>
 
  
   
