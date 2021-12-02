@@ -19,7 +19,8 @@ Following are the figures of front and rear views of 0.96"OLED with 4-Pin I2C wi
 <br/>
 <p align = "center"><img src="https://github.com/DrKRR/SH1106/blob/main/0.96-inch-oled-display-module-4-pin-800x800-1.jpg" width = "350" height = "150"></p>
 As shown in the above figure, the I2C address can be chosen either 0x78 or 0x7A by connecting the 4k7 resistor appropriately. The selected address is used in the program to display the information on the OLED. In the present project, as an IoT example, I am going to explain the interfacing IC BMP280 and OLED with NodeMCU ESP8266 board. The program is developed in Arduino environment (Arduino IDE).<br/>
-BMP280 is a temperature and barometric pressure sensor from Bosch Sensortech. It differs from BME280 that the later measures not only temperature and pressure but also humidity. Salient features of these sensors are: High accuracy, low energy consumption, very small in size and low-cost. Further, Adafruit library is available for interfacing. 
+BMP280 is a temperature and barometric pressure sensor from Bosch Sensortech. It differs from BME280 that the later measures not only temperature and pressure but also humidity. Salient features of these sensors are: High accuracy, low energy consumption, very small in size and low-cost. Further, Adafruit library is readily available for interfacing. It supports I2C protocol for interfacing. The following figure shows the tiny BMP280 board:
+
 
 
 
