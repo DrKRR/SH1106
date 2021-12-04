@@ -24,7 +24,7 @@ BMP280 is a temperature and barometric pressure sensor from Bosch Sensortech. It
 <p align = "center"><img src="https://github.com/DrKRR/SH1106/blob/main/BMP280.jpg" width = "250" height = "200"> </p>The sensor works in the voltage range of 1.8 to 3.6V. As I am working at 3.3V, it is well suited. Usally,the board comes with connector not soldered. I have soldered a 6-pin berg connector. As I have mentioned earlier, I am using NodeMCU ESP8266 as controller for displaying temperature, barometric pressure and altitude on OLED display. The hardware connections to accomplish this task are shown in the following diagram:<br/> <br/>
 
 <p align = "center"><img src="https://github.com/DrKRR/SH1106/blob/main/20211203_163538.jpg" width = "500" height = "400"> </p>
-Inspite of the fact that the SCL and SDA pins of NodeMCU are connected to both OLED and BMP280 sensor, the ESP8266 can identify devices individually, by its unique address. After programming, i.e., after downloading the file on to the ESP8266, the system is powered by a power bank.
+Inspite of the fact that the SCL and SDA pins of NodeMCU are connected to both OLED and BMP280 sensors, the ESP8266 can identify devices individually, by its unique address. After programming, i.e., after downloading the file on to the ESP8266, the system is powered by a power bank.
 The photograph of the designed and developed project is shown below:<br/> <br/>
 
  
