@@ -26,8 +26,8 @@ BMP280 is a temperature and barometric pressure sensor from Bosch Sensortech. It
 <p align = "center"><img src="https://github.com/DrKRR/SH1106/blob/main/20211203_163538.jpg" width = "500" height = "400"> </p>
 Inspite of the fact that the SCL and SDA pins of NodeMCU are connected to both OLED and BMP280 sensors, the ESP8266 can identify devices individually, by its unique address. After programming, i.e., after downloading the file on to the ESP8266, the system is powered by a power bank.
 The photograph of the designed and developed project is shown below:<br/> <br/>
-<p align = "center"><img src="https://github.com/DrKRR/SH1106/blob/main/IMG_20210427_222750.jpg" width = "500" height = "400"> 
-</p> 
+<p align = "center"><img src="https://github.com/DrKRR/SH1106/blob/main/IMG_20210427_222750.jpg" width = "500" height = "400"> </p> 
+<br/>
 The program is developed in the Arduino environment. Program listing is given in the form of text file: **ESP8266_BMP280.txt**. Steps involved in the program development are given below:
 * Include the supporting header files
 * Define the OLED and sensor:BMP280 parameters
