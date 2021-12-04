@@ -41,7 +41,8 @@ I have developed another program, for the same hardware, with the following feat
  <li> Program displays the parameters not only on OLED but also EMQX client </li>
  <li> The parameters are displayed on client and OLED only when the change in value changes by 0.01 </li>
  </ul>
- Name of the text file: <b> EMQX_BMP280_OLED </b>
+ Name of the text file: <b> EMQX_BMP280_OLED </b> </br>
+ My next repository gives a practical demonstration on how to interface 1.3 inch OLED display with NodeMCU in SPI and I2C modes.
  
  
   
