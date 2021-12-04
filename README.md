@@ -28,12 +28,14 @@ Inspite of the fact that the SCL and SDA pins of NodeMCU are connected to both O
 The photograph of the designed and developed project is shown below:<br/> <br/>
 <p align = "center"><img src="https://github.com/DrKRR/SH1106/blob/main/IMG_20210427_222750.jpg" width = "500" height = "400"> </p> 
 <br/>
-The program is developed in the Arduino environment. Program listing is given in the form of text file: **ESP8266_BMP280.txt**. Steps involved in the program development are given below:
-* Include the supporting header files
-* Define the OLED and sensor:BMP280 parameters
-* Declare the constants and variables
-* In the setup function: set the serial baud rate, initialize OLED and BMP280
-* In the loop function: display temperature, pressure and altitude on OLED and serial monitor.
+The program is developed in the Arduino environment. Program listing is given in the form of text file: <b> ESP8266_BMP280.txt</b>. Steps involved in the program development are given below:
+<ul>
+<li> Include the supporting header files </li>
+ <li> Define the OLED and sensor:BMP280 parameters </li>
+ <li> Declare the constants and variables </li>
+ <li> In the setup function: set the serial baud rate, initialize OLED and BMP280 </li>
+ <li> In the loop function: display temperature, pressure and altitude on OLED and serial monitor. </li>
+ </ul>
 
  
  
