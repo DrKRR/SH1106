@@ -37,7 +37,7 @@ The program is developed in the Arduino environment. Program listing is given in
  <li> In the loop function: display temperature, pressure and altitude on OLED and serial monitor </li>
  </ul>
  The following is the URL of my Youtube video:<br>
-     <p align = "center">[(https://youtu.be/ndlQg87cljo)] </p>
+     <p align = "center">[(https://www.youtube.com/watch?v=ndIQg87cljo)] </p>
 
 I have developed another program, for the same hardware, with the following features:
 <ul>
